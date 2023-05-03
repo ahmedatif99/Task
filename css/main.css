@@ -1,7 +1,6 @@
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
-
 .header-title {
   width: 100%;
   border-radius: 8px;
@@ -28,12 +27,9 @@
   right: -30px;
   border-left: solid 10px #fb2e86;
 }
-
-/*  */
 .score-box {
   text-align: center;
 }
-
 .score-box .score-circle {
   box-sizing: border-box;
   width: 180px;
@@ -42,4 +38,10 @@
   top: 1123px;
   border: 12px solid #ffc540;
   border-radius: 50%;
+}
+
+/* Google Material Icon */
+
+.material-symbols-sharp {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
